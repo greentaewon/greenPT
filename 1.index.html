@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+            <style>
+
+
+                body {  background-color: #36680485; text-align: center;}
+                h1 { color:rgb(78, 103, 3);  text-align: center;}
+                h2 { color:rgb(78, 103, 3);  text-align: center;}
+
+            </style>
+            <hr />
+            <a href="1.index.html">시작페이지 </a>
+            <a href="1.index.html">즐겨찾기추가 </a>
+            <hr />
+            <NAV>
+                <h2>이용안내</h2>
+                    <dl>
+                        <dt><a href=#프로그램_수강문의> 프로그램_수강문의 </a></dt>
+                        <dt><a href=#빠른상담_받기> 빠른상담_받기 </a></dt>
+                        <dt><a href=#찾아오시는_길> 찾아오시는_길 </a></dt>
+                    </dl>
+            <hr />    
+            </NAV>
+            
+    </head>
+<body>
+    <header>
+        <button type="button"><img src="../greenPT/ptImg/캡처.PNG" /></button>
+        <form action="greenPT">
+            <select name="greenPT">
+                <option value="그린짐소개">그린짐소개</option>
+                <option value="오시는길">오시는길</option>
+                <option value="홍보영상" >홍보영상</option>
+                <option value="매장전경">매장전경</option>
+            </select>
+            <select name="프로그램">
+                <option value="PT">PT</option>
+                <option value="다이어트">다이어트</option>
+                <option value="재활" >재활</option>
+                <option value="체형교정">체형교정</option>
+            </select>
+            <select name="greenPT">
+                <option value="이용후기">이용후기</option>
+            </select>
+            <select name="greenPT">
+                <option value="공지사항">공지사항</option>
+                <option value="질문과답변">질문과답변</option>
+                <option value="자주하는질문" >자주하는질문</option>
+                <option value="갤러리">갤러리</option>
+                <option value="운동TIP" >운동TIP</option>
+            </select>
+            <select name="greenPT">
+                <option value="웨이트기구">웨이트기구</option>
+                <option value="헬스소품">헬스소품</option>
+                <option value="런닝머신" >런닝머신</option>
+                <option value="진동운동기">진동운동기</option>
+                <option value="복근운동기" >복근운동기</option>
+            </select>
+        </form>
+
+
+        <hr />
+
+
+        <h1>피티샵 금액대별 프로그램 이용안내</h1>
+        <P>부담없이 내가 원하는 <span style="color: rgb(255, 255, 255);">금액대의 다양한</span><br>
+        <span style="color: rgb(255, 255, 255);">프로그램</span>들을 지금 당장 만나보세요
+        </P>
+        <a href="https://greenpt.co.kr/PT_Program" target="_self"> 
+            <img src="../greenPT/ptImg/PT프로그램.jpg" alt=""></a>
+         <a href="https://greenpt.co.kr/Diet_Program" target="_self"> 
+            <img src="../greenPT/ptImg/다이어트 프로그램.jpg" alt=""></a>     
+         <a href="https://greenpt.co.kr/Rehabilitation_Program" target="_self"> 
+            <img src="../greenPT/ptImg/재활 프로그램.jpg" alt=""></a>
+        <a href="https://greenpt.co.kr/Body_Shape_Correction_Program" target="_self"> 
+            <img src="../greenPT/ptImg/체형교정 프로그램.jpg" alt=""></a>
+
+        <h1>최고의 현역트레이너와 함께하세요!</h1>
+        <P><span style="color: rgb(255, 255, 255);">현역 트레이너</span>가 여러분의 몸매가꾸기의 
+        <P><span style="color: rgb(255, 255, 255);">즐거운 헬스 러닝메이트</span>가 되어 드립니다.</P>
+    </header>
+
+
+    <section>
+        <article id="프로그램_수강문의">
+            <h2>프로그램_수강문의</h2>
+            <p>프로그램 수강관련 문의사항을 남겨주세요 </p>
+        </article>
+        <div style="border: 3px solid rgb(255, 255, 255);>
+        <article id="빠른상담_받기">
+            <h2>빠른상담_받기</h2>
+            <p>문의글과 함께 연락처 남겨주시면<br> 
+               담당자 확인후 빠른 상담을 도와드립니다. </p>
+            <footer>
+                <p>Email: 그린피티 <a href="mailto:greenPT@example.com">greenPT@example.com</a></p>
+            </footer>
+        <form name="input" action="빠른문의.jsp" method="get">
+            이름: <input type="text" name="user"> &nbsp; 패스워드: <input type="password" name="pass"><br />
+            이메일: <input type="email" name="email"> &nbsp;  연락처: <input type="tel" name="tel"><br>
+            <select name="greenPT">
+                <option value="문의과목">문의과목</option>
+                <option value="PT">PT</option>
+                <option value="다이어트" >다이어트</option>
+                <option value="재활">재활</option>
+                <option value="체형교정" >체형교정</option>
+            </select>
+            
+            문의사항을 적어주세요.
+            <label for="proc_form.jsp">
+                <label for="male">남성</label>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="female">여성</label>
+                <input type="radio" name="gender" id="female" value="female">
+            </label>
+            <br>
+            <textarea name="feedback" rows="5" cols="50"></textarea><br>
+            <input type="checkbox" name="agree" value="agree">개인정보 보호정책에 동의합니다
+            <input type="submit" value="제출">
+            <input type="reset" value="초기화">
+        </div>
+
+        </form>
+        </article>
+        <article id="찾아오시는_길">
+            <h2>찾아오시는_길</h2>
+            <p>adress: 남구 화합로 178번길 그린피티 </p>
+            <p>contact: 052-798-7799 </p>
+            <p>time: 06:00 ~ 23:00 </p>
+        </article>
+    </section>
+    <hr />
+
+</body>
+</html>
